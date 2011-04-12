@@ -52,6 +52,7 @@ require_recipe "system"
 
 #uncomment to run the redis recipe
 require_recipe "redis"
+require_recipe "redis:unicorn"
 
 #require_recipe "logrotate"
 #
