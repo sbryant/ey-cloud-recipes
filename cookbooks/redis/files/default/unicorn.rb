@@ -5,7 +5,7 @@ shared_bundler_gems_path = "/data/SeattlesBest/shared/bundler_gems"
 
 working_directory '/data/SeattlesBest/current/'
 worker_processes 24
-listen '/var/run/engineyard/unicorn_SeattlesBest.sock', :backlog => 2048
+listen '/var/run/engineyard/unicorn_SeattlesBest.sock', :backlog => 4096
 timeout 60
 pid "/var/run/engineyard/unicorn_SeattlesBest.pid"
 
